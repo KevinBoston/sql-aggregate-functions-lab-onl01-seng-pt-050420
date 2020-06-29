@@ -18,4 +18,6 @@ end
 
 def average_gpa_for_9th_grade
   "SELECT AVG(gpa) FROM SELECT ;"
+  "SELECT gpa, "
+  SELECT breed, COUNT(breed) FROM cats GROUP BY breed;
 end
